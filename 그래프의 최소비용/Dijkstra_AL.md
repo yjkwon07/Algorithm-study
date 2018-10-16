@@ -56,7 +56,7 @@ int getSmallIndex() {
 
 // 다익스트라를 수행하는 함수입니다. 
 void dijkstra(int start){
-	for( int I =0; I < number; i++){
+	for( int i =0; i < number; i++){
 		d[i] = a[start][i];
 	}
 	v[start] = true;
