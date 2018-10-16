@@ -78,7 +78,7 @@ int main(void) {
 
 </pre>
 
-******** 시간 초과 문제 -> Heap ********
+<h2> 시간 초과 문제 -> Heap </h2>
 <pre>
 #include <iostream>
 #include <vector>
