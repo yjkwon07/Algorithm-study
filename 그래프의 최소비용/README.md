@@ -8,7 +8,8 @@
 <a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98%20%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9/union-find.md"><h2>Union-find</h2></a>
 <a href=""><h2>Prim_AL</h2></a>
 <a href=""><h2>Kruskal_AL</h2></a>
-<h2> 최단 경로 </h2>
+---
+<h1> 최단 경로 </h1>
 <a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98%20%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9/Dijkstra_AL.md"><h2>Dijkstra_AL</h2></a>
 <a href=""><h2>Floyd Warshall_AL</h2></a>
 
