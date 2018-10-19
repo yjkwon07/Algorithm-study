@@ -41,3 +41,4 @@ int (32비트) 기준, 가장 왼쪽 비트 부터 오른쪽 비트까지 하나
 왜냐하면 a-1은 a의 가장 마지막 비트를 0으로 바꾸고 그보다 작은 비트들을 모두 0으로 바꾸기 때문이다.
 <h2><a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EB%B9%84%ED%8A%B8%20%26%20%EB%B0%B0%EC%97%B4/bit%20mask.cpp"> Code(c++) </a></h2>
 <h2><a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EB%B9%84%ED%8A%B8%20%26%20%EB%B0%B0%EC%97%B4/bitmask.java"> Code (java) </a></h2>
+<h2><a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EB%B9%84%ED%8A%B8%20%26%20%EB%B0%B0%EC%97%B4/20181010%20SW1.ipynb"> 비트 연산 개념 </a></h2>
