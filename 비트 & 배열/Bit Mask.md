@@ -35,5 +35,5 @@ int (32비트) 기준, 가장 왼쪽 비트 부터 오른쪽 비트까지 하나
 컴퓨터는 내부적으로 2의 보수 체계를 사용하므로 -a는 a에 대한 1의 보수에서 1을 더한 값과 동일<br>
 그러므로 a와 -a를 AND(&)연산하면 가장 작은 비트인 마지막 원소를 구할 수 있다.<br>
 이 때 마지막 원소는 정수형으로 반환되어 오른쪽에서 3번째 원소라면 2^(3-1) = 4<br>
-<a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EB%B9%84%ED%8A%B8%20%26%20%EB%B0%B0%EC%97%B4/bit%20mask.cpp"> <h2>Code</h2> </a>
+<h2><a href="https://github.com/yjkwon07/Algorithm-study/blob/master/%EB%B9%84%ED%8A%B8%20%26%20%EB%B0%B0%EC%97%B4/bit%20mask.cpp"> Code </a></h2>
 
