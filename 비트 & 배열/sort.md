@@ -168,7 +168,7 @@ int main(void) {
 
 [정렬 과정](https://blog.naver.com/ndb796/221227934987)
 
-알고리즘을 구현할 때 신경써야 하는 부분은 반드시 정령에 사용되는 배열은 `전역 변수`로 선언 해야한다. 
+알고리즘을 구현할 때 신경써야 하는 부분은 반드시 정렬에 사용되는 배열은 `전역 변수`로 선언 해야한다. 
 
 만약 함수 안에서 배열을 선언하게 된다면 매 번 배열을 선언해야 한다는 점에서 메모리 자원의 낭비가 매우 커질수 있다.
 
@@ -180,7 +180,7 @@ int number = 8;
 
 int size; 
 int sotred[8]; // 정렬 배열은 반드시 전역 변수로 선언
-nt count = 0;
+int count = 0;
 
 void merge(int a[], int m, int middle, int n) {
 	int i = m;
@@ -226,7 +226,7 @@ void mergeSort(int a[], int m, int n) {
 		int middle = (m + n) /2;
 		mergeSort(a, m, middle);
 		mergeSort(a, middle+1, n);
-		mergeSort(a, m, middle, n);
+		merge(a, m, middle, n);
 	} 
 }
 
