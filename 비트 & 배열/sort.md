@@ -151,7 +151,8 @@ int main(void) {
   show();
   return 0;
 }
-'''
+```
+
 
 # 5. 병합 정렬(Merge Sort)
 ## O(N*logN)
