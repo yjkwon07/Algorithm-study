@@ -66,6 +66,8 @@ printf("%s\n", stack);
 
 [대표문제-미로찾기- dfs](https://github.com/yjkwon07/Algorithm-study/blob/master/STACK/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0%20-dfs.cpp)
 
+[길찾기](https://github.com/yjkwon07/Algorithm-study/tree/master/SW%EB%AC%B8%EC%A0%9C/D4/1219.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%204%EC%9D%BC%EC%B0%A8%20-%20%EA%B8%B8%EC%B0%BE%EA%B8%B0)
+
 ## 백트래킹 기법
   - 이 기법을 통해 최적화(Optimization)문제와 결정(Decisin)문제를 해결할 수 있다. 
    다시 말해서, DFS에서 발전한 기법이 Backtracking이다.
