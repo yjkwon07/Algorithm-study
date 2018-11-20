@@ -121,3 +121,5 @@ deQueue() {
 ```
 
 [대표문제-BFS](https://github.com/yjkwon07/Algorithm-study/blob/master/QUEUE/bfs.cpp)
+
+[미로 찾기](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D4/1226.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%207%EC%9D%BC%EC%B0%A8%20-%20%EB%AF%B8%EB%A1%9C1/SW_1226_sol.java)
