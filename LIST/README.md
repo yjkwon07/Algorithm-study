@@ -77,7 +77,7 @@ void delete_node(NODE * prev) {
 
 [병합정렬](https://github.com/yjkwon07/Algorithm-study/blob/master/LIST/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC.cpp)
 
-# 횐형 리스트
+# 형 리스트
 [대표문제-Josephus Problem](https://github.com/yjkwon07/Algorithm-study/blob/master/LIST/Josephus%20Problem%20-list.cpp)
 
 사실, 위에서 배운 리스트를 통해 스택과 큐를 구현할 수도 있는데, 기본적인 원리는 같지만, 메모리를 더 효율적으로 쓸 수 있다는 접과 우선순위 큐를 효울적으로 구현할 수 있다는 점이 다른데,
