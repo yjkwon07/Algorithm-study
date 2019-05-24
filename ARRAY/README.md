@@ -1,5 +1,7 @@
 # 1차시 [Array] 배열
-[대표문제-Gravity](https://github.com/yjkwon07/Algorithm-study/blob/master/ARRAY/Gravity.cpp)
+[대표문제-Gravity -> O(n^3) ](https://github.com/yjkwon07/Algorithm-study/blob/master/ARRAY/Gravity.cpp)
+
+[대표문제-Gravity -> O(n^2) ](https://github.com/yjkwon07/Algorithm-study/blob/master/ARRAY/Gravity2.cpp)
 
 # 2차시 [Array] 순열, 정렬
 - `Exhaustive search(완전 검색)` -> input이 작을 때 (모든 경우의 수 나열)
@@ -48,6 +50,8 @@
   ```
   
   - `(이진 검색) Binary search`
+  
+  .
   
   ```
   int binarySearch(int *ar, int num, int key)
