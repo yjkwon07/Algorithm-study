@@ -13,8 +13,9 @@ int main(void) {
 	
 	for(int i =0; i < 6; i++) { //각 자리 숫자를 카운팅 
 		c[(input % 10 )]++;
-		input / 10;
+		input /= 10;
 	}
+
 	for(int i = 0; i <10; i++){
 		if(c[i] >= 3) { // triplet 조사
 			c[i] -= 3; 
@@ -29,6 +30,7 @@ int main(void) {
 			i--;
 		}
 	}
+
 	printf("%d", tri + run);
 	if(run + tri == 2)
 		printf("Baby Gin");

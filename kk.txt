@@ -1,0 +1,289 @@
+#include<iostream>
+#include<algorithm>
+#include<math.h>
+using namespace std;
+
+const long long total = 10000000000000LL;
+
+int main() {
+	long long N;
+	cin >> N;
+	long long w = 0, h = 0;
+	long long ret = total;
+	for (w = 1; w <= N; w++) {
+		for (h = 1; h <= N; h++) {
+			if (w * h == N) {
+				ret = min(ret, abs(w - h));
+			}
+		}
+	}
+
+	cout << ret << '\n';
+}
+
+/*
+	원소 기호는 
+	대문자 
+	대문자 1개 + 소문자 1개 
+	매핑 
+*/
+
+#include<iostream>
+#include<vector>
+#include<string>
+using namespace std;
+int check(vector<char> ret , int number, int size) {
+	for (int i = number; i < size; i++) {
+	/*	cout << ret[i] << '\n';*/
+		if (ret[i] == '@') return i;
+	}
+	return size - 1;
+}
+
+int main() {
+	string won;
+	cin >> won;
+	int size = won.size();
+	vector<char> ret(size, '@');
+	int i = 0;
+	int number = 0;
+	int countA = 0; // 원소기호와 숫자 개수가 맞는지 
+	int countN = 0; // 원소기호와 숫자 개수가 맞는지 
+
+	for (; i < size; i++) {
+		int so = won[i] - 'a';
+		int de = won[i] - 'A';
+	
+		if (so >= 0 && so <= 25) {
+			char a = won[i];
+			ret[number] = a;
+			number += 2;
+			countA++;
+		}
+		else if (de >= 0 && de <= 25) {
+			if (i + 1 < size) {
+				int s = won[i+1] - 'a';
+				if (s >= 0 && s <= 25) {
+					char a = won[i];
+					char b = won[i + 1];
+					ret[number++] = a;
+					ret[number] = b;
+					number += 2;
+					i++;
+					countA++;
+					continue;
+				}
+			}
+
+			char a = won[i];
+			ret[number] = a;
+			number += 2;
+			countA++;
+		}
+		else break; // 숫자 
+	}
+
+	//for (int k = 0; k < size; k++) {
+	//	cout << ret[k];
+	//}
+	//cout << '\n';
+	//cout << "df";
+	//cout << countA << '\n';
+
+	
+	for (; i < size; i++) {
+		int a = won[i] - '0';
+		if (a >= 0 && a <= 10) break;
+	}
+	//cout << i << '\n';
+
+	number = 1;
+	for (; i < size; i++) {
+
+		int a = won[i] - '0';
+
+		if (i + 1 < size) {
+			int zero = won[i+1] - '0';
+			if (zero == 0) {
+				number = check(ret, number, size);
+				/*cout << 'd' << '\n';
+				cout << number << '\n';*/
+				ret[number] = '!'; // 10
+				countN++;
+				i++;
+				continue;
+			}
+		}
+
+		number = check(ret, number, size);
+		ret[number] = won[i];
+		countN++;
+	}
+
+	//for (int k = 0; k < size; k++) {
+	//	cout << ret[k];
+	//}
+	//cout << '\n';
+
+	if (countA != countN) {
+		cout << "error" << '\n';
+	}
+	else {
+		size = ret.size();
+		/*cout << size << '\n';*/
+		for (int k = 0; k < size; k++) {
+			if (ret[k] == '1') continue;
+			if (ret[k] == '@') continue;
+			if (ret[k] == '!') {
+				cout << "10";
+				continue;
+			}
+			cout << ret[k];
+		}
+		cout << '\n';
+	}
+
+	//cin >> won;
+}
+
+/*
+	다양한 높이의 일직선 상에 세워져 있다,
+	이때 가로축은 일직선 상의 위치
+	세로축은 빌딩의 높이 
+	빌딩 상이에 지면과 평행하게 밧줄을 연결
+	이 때 가장 긴 밧줄의 길이를 구하시오 
+
+
+*/
+
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main() {
+	int N; 
+	cin >> N;
+	vector<int> contain(N+1);
+	for (int i = 1; i <= N; i++) {
+		int line;
+		cin >> line;
+		contain[i] = line;
+	}
+	
+	int ret = 0;
+	for (int i = 1; i <= N; i++) {
+		int a = contain[i];
+		for (int j = i + 1; j <= N; j++) {
+			int b = contain[j];
+			if (a > b) continue;
+			else {
+				ret = max(ret, abs(i - j));
+				break;
+			}
+		}
+
+		for (int j = i-1; j >= 1; j--) {
+			int b = contain[j];
+			if (a > b) continue;
+			else {
+				ret = max(ret, abs(i - j));
+				break;
+			}
+		}
+
+	}
+
+	cout << ret << '\n';
+}
+
+/*
+	나 잡아 봐라 게임
+	브라운이 코니를 잡거나 코니가 너무 멀리 달아나면 
+	답이 있거나 없거나 
+	게임이 끝나는데 걸리는 최소 시간을 구하시오 
+
+	코니
+	처음 위치에서 1초 후 1만큼 움직임
+	기속이 붙어 매 초마다 '이전 이동거리 +1' 
+	c , c + 1 ,c + 3, c + 6 ,,,,,
+	
+	브라운 
+	현재 위치 B에서 
+	다음 순간 B-1, B +1, 2 * B 중 하나로 이동 가능
+
+	브라운은 범위를 벗어나는 위치로는 이동할 수 없고 
+	코니가 범위를 벗어나면 게임 끝
+
+	코니와 브라운의 위치가 200000넘으면 -1 
+*/
+
+/*
+	코니는 배열로 저장이 가능하다.
+	브라운을 BFS로 움직이면? NO
+	DFS?? 가능성 있네 
+	DFS + 백트래킹
+	return? 200000 넘으면 탈락 -1
+	끝까지 -1이면 -1 출력 
+	만약 넘어온 수가 코니랑 같으면 초 return 
+	count는 계속해서 증가 
+
+*/
+#include<iostream>
+#include<vector>
+using namespace std;
+const long long leng = 200000LL;
+
+vector<int> ans; // 코니
+int brwon[leng];
+int line = 0;
+int n, m;
+int cnt = 0x7fffffff;
+
+int go(int time, int s) {
+	if (time == leng) {
+		for (int i = 1; i < line; i++) {
+		
+			if (i == brwon[ans[i]]){
+				cout << i << '\n';
+				return i;
+			}				
+		}
+
+		return 0x7fffffff;
+	}
+		
+	if (s * 2 < leng) {
+		brwon[s * 2] = time;
+		int t = go(time+1 , s * 2);
+		if (cnt > t) cnt = t;
+	}
+	if (s + 1 < leng) {
+		brwon[s + 1] = time;
+		int t = go(time + 1, s + 1);
+		if (cnt > t) cnt = t;
+	}
+	if (s - 1 >= 0) {
+		brwon[s - 1] = time;
+		int t = go(time + 1 , s -1);
+		if (cnt > t) cnt = t;
+	}
+	return cnt;
+}
+
+int main() {
+	cin >> n >> m;
+
+	int count = 1;
+	while (true) {
+		ans.push_back(n);
+		n += count;
+		count++;
+		if (n > 200000) break;
+	}
+
+	line = ans.size();
+
+	cout << go( 0 ,m);
+	cin >> n;
+	return 0;
+}

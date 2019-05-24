@@ -13,6 +13,7 @@ int main(void) {
 				element[2] = k;
 				for(int l=0; l <= 1; l++) {
 					element[3] = l;
+					
 					// 원소 출력 
 					printf("%d%d%d%d\n",element[0],element[1],element[2],element[3]); 
 				}

@@ -1,0 +1,8 @@
+this vs super 
+변수 명 out 
+stack heap 구현 원리 
+abstrack vs interface
+interface default method
+일반화
+peter coad 상속 규칙
+delegration 
