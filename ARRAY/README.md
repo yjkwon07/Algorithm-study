@@ -23,9 +23,60 @@
 [비트연산 -D5](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D5/1242.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EC%9D%91%EC%9A%A9%5D%201%EC%9D%BC%EC%B0%A8%20-%20%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C%20%EC%8A%A4%EC%BA%94/number20_sol.java)
 
 - 검색
-  - `Sequential search`
-  - `Binary search`
-  - `Hash`
+  - `(순차 검색) Sequential search`
+  
+  정렬되어 있지 않은 경우와 정렬되어 있는 경우의 성능차이는 다르다.
+  
+  ```
+  // *ar: 자료 
+  // num: 자료의 사이즈 
+  // key: 찾고자 하는 숫자 
+  int sequentialSearch(int *ar, unsigned int num, int key)
+  { 
+    unsigned int i;
+    // 자료의 처음부터 끝가지 반복
+    for(i = 0; i < num; i++)
+    {
+      // 숫자가 존재할 경우
+      if(ar[i] == key)
+      { 
+        return i;
+      }
+    }
+    retrun -1;
+  }  
+  ```
+  
+  - `(이진 검색) Binary search`
+  
+  ```
+  int binarySearch(int *ar, int num, int key)
+  {
+    int up. down, mid;
+    
+    down = 0;
+    up = num - 1;
+    for(;;) {
+     // 중앙 원소
+     mid = (up + down) / 2;
+     
+     if(ar[mid] == key) return mid;
+     // 목표 값이 원소보다 작다면 왼쪽 반 수행
+     if(ar[mid] > key) {
+      up = mid - 1; 
+     }
+     else {
+      down = mid + 1;
+     }
+     // 검색이 끝남
+     if(up < down) {
+      return -1;
+     }
+    }
+  }
+  ```
+  - `(해쉬 검색) Hash`
+  - `index` 
   
 # 4차시 [Array] 배열의 순회, 선택 정렬
 [자신의 위칫값 차의 합](https://github.com/yjkwon07/Algorithm-study/blob/master/ARRAY/%EC%9E%90%EC%8B%A0%EC%9D%98%20%EC%9C%84%EC%B9%AB%EA%B0%92%20%EC%B0%A8%EC%9D%98%20%ED%95%A9.cpp)
