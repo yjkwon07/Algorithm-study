@@ -1,0 +1,53 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(17136.vcxproj, 색종이 붙이기[17136].vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  괄호 추가하기[16637].cpp
+c:\users\cheerup\source\repos\today_sol\괄호 추가하기\괄호 추가하기[16637].cpp(74): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  괄호 추가하기2[16638].cpp
+c:\users\cheerup\source\repos\sw\sw\괄호 추가하기2[16638].cpp(62): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\source\repos\sw\sw\괄호 추가하기2[16638].cpp(80): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  괄호 추가하기3.cpp
+c:\users\cheerup\source\repos\sw\sw\괄호 추가하기3.cpp(43): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\source\repos\sw\sw\괄호 추가하기3.cpp(53): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  장군.cpp
+  색종이 붙이기[17136](2).cpp
+  코드를 생성하고 있습니다...
+c:\users\cheerup\source\repos\sw\sw\괄호 추가하기3.cpp(25): warning C4715: 'calculate': 모든 제어 경로에서 값을 반환하지는 않습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "int __cdecl calculate(int,int,char)" (?calculate@@YAHHHD@Z)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "void __cdecl dfs(int)" (?dfs@@YAXH@Z)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "int __cdecl getResult(void)" (?getResult@@YAHXZ)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "int n" (?n@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "char * map" (?map@@3PADA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기2[16638].obj : error LNK2005: "int * bound" (?bound@@3PAHA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "int __cdecl calculate(int,int,char)" (?calculate@@YAHHHD@Z)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "void __cdecl dfs(int)" (?dfs@@YAXH@Z)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "int __cdecl getResult(void)" (?getResult@@YAHXZ)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "int * bound" (?bound@@3PAHA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "char * map" (?map@@3PADA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "int n" (?n@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+괄호 추가하기3.obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+색종이 붙이기[17136](1).obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+색종이 붙이기[17136](1).obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+미세먼지 안녕[17144].obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+낚시왕[17143].obj : error LNK2005: "void __cdecl print(void)" (?print@@YAXXZ)이(가) 미세먼지 안녕[17144].obj에 이미 정의되어 있습니다.
+낚시왕[17143].obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+낚시왕[17143].obj : error LNK2005: "int R" (?R@@3HA)이(가) 미세먼지 안녕[17144].obj에 이미 정의되어 있습니다.
+낚시왕[17143].obj : error LNK2005: "int C" (?C@@3HA)이(가) 미세먼지 안녕[17144].obj에 이미 정의되어 있습니다.
+낚시왕[17143].obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+장군.obj : error LNK2005: "void __cdecl print(void)" (?print@@YAXXZ)이(가) 미세먼지 안녕[17144].obj에 이미 정의되어 있습니다.
+장군.obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+장군.obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기[17070](1).obj : error LNK2005: "void __cdecl print(void)" (?print@@YAXXZ)이(가) 미세먼지 안녕[17144].obj에 이미 정의되어 있습니다.
+파이프 옮기기[17070](1).obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기[17070](1).obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기[17070](2).obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기[17070](2).obj : error LNK2005: "int n" (?n@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기[17070](2).obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기2[17069].obj : error LNK2005: "void __cdecl go(int,int,int)" (?go@@YAXHHH@Z)이(가) 파이프 옮기기[17070](1).obj에 이미 정의되어 있습니다.
+파이프 옮기기2[17069].obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+파이프 옮기기2[17069].obj : error LNK2005: "int N" (?N@@3HA)이(가) 파이프 옮기기[17070](1).obj에 이미 정의되어 있습니다.
+색종이 붙이기[17136](2).obj : error LNK2005: "void __cdecl print(void)" (?print@@YAXXZ)이(가) 미세먼지 안녕[17144].obj에 이미 정의되어 있습니다.
+색종이 붙이기[17136](2).obj : error LNK2005: _main이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+색종이 붙이기[17136](2).obj : error LNK2005: "int ans" (?ans@@3HA)이(가) 괄호 추가하기[16637].obj에 이미 정의되어 있습니다.
+C:\Users\cheerup\source\repos\SW\Debug\SW.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

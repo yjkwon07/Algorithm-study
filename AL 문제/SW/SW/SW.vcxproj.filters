@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\DFS">
+      <UniqueIdentifier>{a9d66624-f6bd-48e0-a112-9d903fe2f58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS">
+      <UniqueIdentifier>{492d46e7-826f-41a3-99d6-79b021cd2ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{deaa99a4-f1d1-4987-9853-2258d8fc35ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\시뮬">
+      <UniqueIdentifier>{60432c7c-61c0-4514-bdb5-f2273979c1a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="봄버맨[16918]%282%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="봄버맨[16918[%281%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="파이프 옮기기[17070]%281%29.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="파이프 옮기기[17070]%282%29.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="파이프 옮기기2[17069].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\today_sol\괄호 추가하기\괄호 추가하기[16637].cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호 추가하기2[16638].cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="미세먼지 안녕[17144].cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="낚시왕[17143].cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호 추가하기3.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="장군[16509].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이 붙이기[17136]%281%29.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이 붙이기[17136]%282%29.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="치즈[2638].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="말이 되고픈 원숭이[1600].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="달이 차오른다, 가자[1194].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="열쇠[9328]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="열쇠[9328](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="보이저 1호.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="퍼즐[2525](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="퍼즐[1525]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="보이저 1호[3987](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="로봇[1726].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
