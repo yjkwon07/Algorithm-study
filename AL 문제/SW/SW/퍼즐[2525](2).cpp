@@ -24,7 +24,7 @@ int main() {
 			start = start * 10 + temp;
 		}
 	}
-	queue<int> qu;
+	queue<int> q;
 	map<int, int > dist;
 	q.push(start);
 	while (!q.empty())
