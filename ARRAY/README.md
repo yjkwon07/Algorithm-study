@@ -29,7 +29,7 @@ __[비트연산 -D5](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%
   
   정렬되어 있지 않은 경우와 정렬되어 있는 경우의 성능차이는 다르다.
   
-  ```
+  ```C
   // *ar: 자료 
   // num: 자료의 사이즈 
   // key: 찾고자 하는 숫자 
@@ -53,7 +53,7 @@ __[비트연산 -D5](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%
   
   .
   
-  ```
+  ```C
   int binarySearch(int *ar, int num, int key)
   {
     int up. down, mid;
