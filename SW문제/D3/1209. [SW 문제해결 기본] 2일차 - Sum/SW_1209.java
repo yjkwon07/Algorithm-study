@@ -6,64 +6,64 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /*
- * ÃÖ´ë ¹è¿­ÀÇ Å©±â´Â 100 * 100
- * °¡·Î -> ¼¼·Î -> ´ë°¡¼±ÀÇ ÃÑÇÕÀ» ±¸ÇÑ´Ù 
- * ¸ğµç°ÍÀº IntegerÀÌ´Ù 
- * ÃÑ 10°³ÀÇ Å×½ºÆ® ÄÉÀÌ½º°¡ ÁÖ¾îÁø´Ù.
+ * ìµœëŒ€ ë°°ì—´ì˜ í¬ê¸°ëŠ” 100 * 100
+ * ê°€ë¡œ -> ì„¸ë¡œ -> ëŒ€ê°€ì„ ì˜ ì´í•©ì„ êµ¬í•œë‹¤ 
+ * ëª¨ë“ ê²ƒì€ Integerì´ë‹¤ 
+ * ì´ 10ê°œì˜ í…ŒìŠ¤íŠ¸ ì¼€ì´ìŠ¤ê°€ ì£¼ì–´ì§„ë‹¤.
  */
 
 public class SW_1209 {
-public static void main(String[] args) throws IOException {
-	BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-	int array[][] = new int[100][100];
-	
-	for(int i =0; i < 10; i++) {
-		bf.readLine();
-		for(int x = 0; x < 100; x++) {
-			StringTokenizer st = new StringTokenizer(bf.readLine());
-			for(int y = 0; y < 100; y++) { 
-				array[x][y] = Integer.parseInt(st.nextToken());
+	public static void main(String[] args) throws IOException {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		int array[][] = new int[100][100];
+
+		for(int i =0; i < 10; i++) {
+			bf.readLine();
+			for(int x = 0; x < 100; x++) {
+				StringTokenizer st = new StringTokenizer(bf.readLine());
+				for(int y = 0; y < 100; y++) { 
+					array[x][y] = Integer.parseInt(st.nextToken());
+				}
 			}
-		}
-		
-		// °¡·Î ´õÇÏ±â
-		// ¼¼·Î ´õÇÏ±â 
-		int max =0; 
-		int sum = 0; 
-		int sum2 = 0;
-		for(int x = 0; x < 100; x++) {
-			sum = 0;
-			sum2 = 0;
-			for(int y = 0; y < 100; y++) { 
-				sum += array[x][y];
-				sum2 += array[y][x];
+
+			// ê°€ë¡œ ë”í•˜ê¸°
+			// ì„¸ë¡œ ë”í•˜ê¸° 
+			int max =0; 
+			int sum = 0; 
+			int sum2 = 0;
+			for(int x = 0; x < 100; x++) {
+				sum = 0;
+				sum2 = 0;
+				for(int y = 0; y < 100; y++) { 
+					sum += array[x][y];
+					sum2 += array[y][x];
+				}
+				if(max < sum) {
+					max = sum;
+				}
+				if(max < sum2) {
+					max = sum2;
+				}
 			}
+
+			// ëŒ€ê°ì„  ë”í•˜ê¸°
+			sum =0;
+			sum2 =0;
+			for(int x = 0; x < 100; x++) {
+				for(int y = 0; y < 100; y++) { 
+					if( x == y) sum+=array[x][y];
+				}
+				sum2 += array[x][99-x];
+			}
+			
 			if(max < sum) {
 				max = sum;
 			}
 			if(max < sum2) {
 				max = sum2;
 			}
+
+			System.out.println("#"+(i+1)+" "+max);
 		}
-		
-		// ´ë°¢¼± ´õÇÏ±â
-		sum =0;
-		sum2 =0;
-		for(int x = 0; x < 100; x++) {
-			for(int y = 0; y < 100; y++) { 
-				if( x == y)
-					sum+=array[x][y];
-			}
-			sum2 += array[x][99-x];
-		}
-			if(max < sum) {
-				max = sum;
-			}
-			if(max < sum2) {
-				max = sum2;
-			}
-		
-		System.out.println("#"+(i+1)+" "+max);
-	}
-  }	
+	  }	
 }
