@@ -8,7 +8,13 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.IntSummaryStatistics;
-
+/*
+ 	양쪽 모두 거리 2 이상의 공간이 확보될 때 조망권이 확보된다고 말한다.
+ 	2의 거리 범위에서 조망권을 조사하면 된다.
+	why? 
+	범위가 2이상 부터는 아무리 높거나 낮더라도, 이전의 범위로 VIEW를 조사가 끝냈기 때문  
+	
+*/
 public class SW_1206 {
 	static int sum =0;
 	static String building_array[];
@@ -27,7 +33,6 @@ public class SW_1206 {
 			check1[3] = Integer.parseInt(building_array[building_array.length-1]);
 			if(check1[0] != 0 && check1[1] != 0 && check1[2] != 0 && check1[3] != 0) {
 				break;
-			
 			}
 			else {
 				for(int i = 2; i <= building_array.length-3; i++) {
@@ -50,10 +55,8 @@ public class SW_1206 {
 		int compare[] = new int[2]; 
 		compare[0] = ( Integer.parseInt(building_array[number]) - check2[0]);
 		compare[1] = ( Integer.parseInt(building_array[number]) - check2[1]);
-		if(compare[0] == 0 || compare[1] == 0)
-			sum+=0;
-		else if(compare[0] <0 ||compare[1] < 0)
-			sum +=0;
+		if(compare[0] == 0 || compare[1] == 0) return;
+		else if(compare[0] <0 ||compare[1] < 0) return;
 		else {
 			IntSummaryStatistics stat = Arrays.stream(compare).summaryStatistics();
 			sum += stat.getMin();
