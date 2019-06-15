@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
  
 public class SW_1210_sol {
- 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //test case 10
@@ -31,23 +30,26 @@ public class SW_1210_sol {
                     }
                 }
             }
-            //»ç´Ù¸® ¿À¸£±â
+            //ì‚¬ë‹¤ë¦¬ ì˜¤ë¥´ê¸°
             int nowPoint = endPoint;
             int height = 99;
             while(height != 0){
                 ladder[height][nowPoint] = false;
-                //ÁÂ¿ì ±æ ÀÖ´ÂÁö È®ÀÎ
+                //ì¢Œìš° ê¸¸ ìžˆëŠ”ì§€ í™•ì¸
                 if(nowPoint-1>=0 && ladder[height][nowPoint-1]){
                     nowPoint--;
-                }else if(nowPoint+1<100 && ladder[height][nowPoint+1]){
+                }
+                
+                else if(nowPoint+1<100 && ladder[height][nowPoint+1]){
                     nowPoint++;
-                }else{
-                    //À§·Î ¿À¸£±â
+                }
+                
+                else{
+                    //ìœ„ë¡œ ì˜¤ë¥´ê¸°
                     height--;
                 }
             }
             System.out.println("#"+t+" "+nowPoint);
         }//end test case
     }//end main
- 
 }//end class
