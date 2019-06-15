@@ -36,17 +36,21 @@ public class SW_1211_sol{
     private static int findGate(int x,int y,int check,int result) {
         if(ladder[x][y-1] == 1 && check == 0) {
             while(true) {
-            	y--;
+               	y--;
                 result++;
                 if(ladder[x][y] == 0) return findGate(x, y+1,1,result-1);
-            }x
-        }else if(ladder[x][y+1] == 1 && check == 0) {
+            }
+        }
+        
+        else if(ladder[x][y+1] == 1 && check == 0) {
             while(true) {
                 y++;
                 result++;
                 if(ladder[x][y] == 0) return findGate(x, y-1,1,result-1);
             }
-        }else {
+        }
+        
+        else {
             if(x+1>=100) return result++;
             return findGate(x+1, y, 0,result+1);
         }
