@@ -91,3 +91,16 @@
 
 # 5차시 [Array] 
 [대표문제-평탄화 해결하기](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D3/1208.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%201%EC%9D%BC%EC%B0%A8%20-%20Flatten/SW_1208_sol.c.txt)
+
+# 문제
+[1204.[S/W 문제해결 기본] 1일차 - 최빈수 구하기](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D3/1204.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%201%EC%9D%BC%EC%B0%A8%20-%20%EC%B5%9C%EB%B9%88%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0/SW_1204.java)
+
+[1206.[S/W 문제해결 기본] 1일차 - View](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D3/1206.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%201%EC%9D%BC%EC%B0%A8%20-%20View/SW_1206.java)
+
+[1208. [S/W 문제해결 기본] 1일차 - Flatten](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D3/1208.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%201%EC%9D%BC%EC%B0%A8%20-%20Flatten/SW_1208.java)
+
+[1209. [S/W 문제해결 기본] 2일차 - Sum](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D3/1209.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%202%EC%9D%BC%EC%B0%A8%20-%20Sum/SW_1209.java)
+
+[1210. [S/W 문제해결 기본] 2일차 - Ladder1](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D4/1210.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%202%EC%9D%BC%EC%B0%A8%20-%20Ladder1/SW_1210_sol.java)
+
+[1211. [S/W 문제해결 기본] 2일차 - Ladder2](https://github.com/yjkwon07/Algorithm-study/blob/master/SW%EB%AC%B8%EC%A0%9C/D4/1211.%20%5BSW%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EA%B8%B0%EB%B3%B8%5D%202%EC%9D%BC%EC%B0%A8%20-%20Ladder2/SW_1211_sol.java)
