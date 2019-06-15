@@ -102,5 +102,26 @@
     <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\DSLR[9019](2).cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
+    <ClCompile Include="통나무 옮기기[1938](1).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="레이저 통신[6087](1).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\안전 영역[2468](1).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\안전 영역[2468](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="레이저 통신[6087](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="레이저 통신[6087](3).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="레이저 통신[6087](4).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

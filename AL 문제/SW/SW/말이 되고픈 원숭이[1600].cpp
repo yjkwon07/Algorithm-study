@@ -3,12 +3,12 @@
 #include <cstring>
 using namespace std;
 /*
-말이 되고픈 원숭이
-https://www.acmicpc.net/problem/1600
-1. Horse_cnt (감소할 수 있는 상황별 구별하기)
-[X][Y][Horse_Cnt]
-2. 체스는 옮겨지는 과정에서 장애물은 크게 상관이 없다. (장기랑 다름)
-3. x, y 인지 부족
+	말이 되고픈 원숭이
+	https://www.acmicpc.net/problem/1600
+	1. Horse_cnt (감소할 수 있는 상황별 구별하기)
+	[X][Y][Horse_Cnt]
+	2. 체스는 옮겨지는 과정에서 장애물은 크게 상관이 없다. (장기랑 다름)
+	3. x, y 인지 부족
 */
 
 #define MAX 200

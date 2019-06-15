@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -118,10 +118,16 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\DSLR[9019](1).cpp" />
     <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\DSLR[9019](2).cpp" />
+    <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\안전 영역[2468](1).cpp" />
+    <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\안전 영역[2468](2).cpp" />
     <ClCompile Include="..\..\today_sol\괄호 추가하기\괄호 추가하기[16637].cpp" />
     <ClCompile Include="괄호 추가하기2[16638].cpp" />
     <ClCompile Include="괄호 추가하기3.cpp" />
     <ClCompile Include="달이 차오른다, 가자[1194].cpp" />
+    <ClCompile Include="레이저 통신[6087](1).cpp" />
+    <ClCompile Include="레이저 통신[6087](2).cpp" />
+    <ClCompile Include="레이저 통신[6087](3).cpp" />
+    <ClCompile Include="레이저 통신[6087](4).cpp" />
     <ClCompile Include="로봇[1726].cpp" />
     <ClCompile Include="말이 되고픈 원숭이[1600].cpp" />
     <ClCompile Include="보이저 1호.cpp" />
@@ -135,6 +141,7 @@
     <ClCompile Include="열쇠[9328](2).cpp" />
     <ClCompile Include="장군[16509].cpp" />
     <ClCompile Include="치즈[2638].cpp" />
+    <ClCompile Include="통나무 옮기기[1938](1).cpp" />
     <ClCompile Include="파이프 옮기기[17070]%281%29.cpp" />
     <ClCompile Include="파이프 옮기기[17070]%282%29.cpp" />
     <ClCompile Include="파이프 옮기기2[17069].cpp" />
