@@ -25,6 +25,7 @@ public static void main(String[] args) throws IOException {
 		for(int i =0; i < array.length; i++) 
 			total_array[Integer.parseInt(array[i])]++;
 		for(int i = 0; i <array.length; i++) {
+			// 같은 최빈값은 큰 수가 최빈값으로
 			if(max <= total_array[i] && index < i) {
 				max = total_array[i];
 				index = i;
