@@ -1,24 +1,25 @@
-// ³«Â÷ ¹®Á¦
+// ë‚™ì°¨ ë¬¸ì œ
 // https://swexpertacademy.com/main/learn/course/lectureHtmlViewer.do#none
-#include <stidio.h>
+#include <cstdio>
 #define EMPTY 0
 #define BOX 1
 
+int testCase;
+int T;
+int room[100][100];
+int roomWidth, roomHeight;
+int boxHeight;
+int maxFallen;
+int countEmptySpace;
+int i, j , k;
+
 int main() 
 {
-	int i, j , k;
-	int testCase;
-	int T;
-	int room[100][100];
-	int roomWidth, roomHeight;
-	int boxHeight;
-	int maxFallen;
-	int countEmptySpace;
+
+scanf("%d", &testCase);
 	
-	scanf("%d", &testCase);
-	
-	for(T =0; t <testCase; T++){
-		scanf("%d", &roomWidth, &roomHeight);
+	for(T =0; T <testCase; T++){
+		scanf("%d %d", &roomWidth, &roomHeight);
 		
 		// init
 		for(i =0; i<roomWidth; i++){
@@ -28,24 +29,25 @@ int main()
 		}
 		maxFallen = 0;		
 		
-		for( i =0; i < roomWidth; i++){  // ¹æ¿¡ »óÀÚµéÀ» Ã¤¿î´Ù. 
+		for( i =0; i < roomWidth; i++){  // ë°©ì— ìƒìžë“¤ì„ ì±„ìš´ë‹¤. 
 			scanf("%d", &boxHeight);
 			for( j = 0; j < boxHeight; j++){
 				room[i][j] = BOX;
 			}
 		}
 		
-		// °¢ »óÀÚÀÇ ³«Â÷¸¦ ±¸ÇÑ´Ù.
+		// ê° ìƒìžì˜ ë‚™ì°¨ë¥¼ êµ¬í•œë‹¤.
 		for(i =0; i < roomWidth; i++){
 			for( j = 0; j < roomHeight; j++){
-				// room[i][j]°¡ ¹Ú½º ÀÏ¶§ ºóÄ­ÀÇ °³¼ö¸¦ ¼ÀÀ¸·Î¼­ ³«Â÷¸¦ ±¸ÇÑ´Ù.
+				// room[i][j]ê°€ ë°•ìŠ¤ ì¼ë•Œ ë¹ˆì¹¸ì˜ ê°œìˆ˜ë¥¼ ì…ˆìœ¼ë¡œì„œ ë‚™ì°¨ë¥¼ êµ¬í•œë‹¤.
 				if( room[i][j] == BOX){
 					countEmptySpace = 0;
 					for(k= i+1; k < roomWidth; k++){
 						if(room[k][j] == EMPTY)
 						countEmptySpace += 1;
 					}
-					// ÀÌÀü¿¡ ±¸ÇÑ ³«Â÷º¸´Ù ÇöÀç ³«Â÷°¡ Å©´Ù¸é ¾÷µ¥ÀÌÆ®
+					// printf("%d", countEmptySpace);
+					// ì´ì „ì— êµ¬í•œ ë‚™ì°¨ë³´ë‹¤ í˜„ìž¬ ë‚™ì°¨ê°€ í¬ë‹¤ë©´ ì—…ë°ì´íŠ¸
 					if( countEmptySpace > maxFallen)
 					maxFallen = countEmptySpace; 
 				}
