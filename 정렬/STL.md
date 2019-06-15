@@ -173,10 +173,10 @@ bool compare(pair<string, pair<int, int> > a,
 int main (void) {
   vecotr<pair <string, pair <int, int> > > v;
   v.push_back(pair<string, pair<int, int> >("Steven", make_pair(90, 19961220)));
-  v.push_back(pair<string, pair<int, int> >("Chris", make_pair(90점, 19861212)));
-  v.push_back(pair<string, pair<int, int> >("Camv", make_pair(85점, 19931125)));
-  v.push_back(pair<string, pair<int, int> >("Chus", make_pair(43점, 19920203)));
-  v.push_back(pair<string, pair<int, int> >("Gogh", make_pair(66점, 19441111)));
+  v.push_back(pair<string, pair<int, int> >("Chris", make_pair(90, 19861212)));
+  v.push_back(pair<string, pair<int, int> >("Camv", make_pair(85, 19931125)));
+  v.push_back(pair<string, pair<int, int> >("Chus", make_pair(43, 19920203)));
+  v.push_back(pair<string, pair<int, int> >("Gogh", make_pair(66, 19441111)));
   
   sort(v.begin(), v.end(), compare);
   for(int i = 0; i < v.size(); , i++) {
