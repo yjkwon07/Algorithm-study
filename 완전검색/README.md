@@ -5,6 +5,9 @@
 [N과 M](https://docs.google.com/document/d/1mzAah-D2-5NPPImeQujdlgZmVYRtZZT2v8bsL8OuQVo/edit?usp=sharing)
 
 # 문제
+[1245. [S/W 문제해결 응용] 2일차 - 균형점](https://www.swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
+<hr>
+
 [출처: kks227 추천 문제](https://kks227.blog.me/220769870195)
 
 [연속합](https://www.acmicpc.net/problem/1912)
