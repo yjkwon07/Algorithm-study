@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\시뮬">
       <UniqueIdentifier>{60432c7c-61c0-4514-bdb5-f2273979c1a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Brute-Force">
+      <UniqueIdentifier>{29fa4c1a-662a-48b4-91ff-e14039050c81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="봄버맨[16918]%282%29.cpp">
@@ -122,6 +125,9 @@
     </ClCompile>
     <ClCompile Include="레이저 통신[6087](4).cpp">
       <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="분해합[2231].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
