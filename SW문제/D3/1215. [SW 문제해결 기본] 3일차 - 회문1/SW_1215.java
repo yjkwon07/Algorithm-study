@@ -5,15 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /*
- * "±â·¯±â" ¶Ç´Â "level" °ú °°ÀÌ °Å²Ù·Î ÀÐ¾îµµ ¾Õ¿¡¼­ºÎÅÍ ÀÐÀº °Í°ú °°Àº ¹®ÀåÀÌ³ª ³¹¸»À» È¸¹®(üÞÙþ, palindrome)ÀÌ¶ó ÇÑ´Ù.
-* ÁÖ¾îÁø 8x8 Æò¸é ±ÛÀÚÆÇ¿¡¼­ °¡·Î, ¼¼·Î¸¦ ¸ðµÎ º¸¾Æ Á¦½ÃµÈ ±æÀÌ¸¦ °¡Áø È¸¹®ÀÇ ÃÑ °³¼ö¸¦ ±¸ÇÏ´Â ¹®Á¦ÀÌ´Ù.
+	 * "ê¸°ëŸ¬ê¸°" ë˜ëŠ” "level" ê³¼ ê°™ì´ ê±°ê¾¸ë¡œ ì½ì–´ë„ ì•žì—ì„œë¶€í„° ì½ì€ ê²ƒê³¼ ê°™ì€ ë¬¸ìž¥ì´ë‚˜ ë‚±ë§ì„ íšŒë¬¸(å›žæ–‡, palindrome)ì´ë¼ í•œë‹¤.
+	* ì£¼ì–´ì§„ 8x8 í‰ë©´ ê¸€ìžíŒì—ì„œ ê°€ë¡œ, ì„¸ë¡œë¥¼ ëª¨ë‘ ë³´ì•„ ì œì‹œëœ ê¸¸ì´ë¥¼ ê°€ì§„ íšŒë¬¸ì˜ ì´ ê°œìˆ˜ë¥¼ êµ¬í•˜ëŠ” ë¬¸ì œì´ë‹¤.
 
- °¢ Ä­ÀÇ µé¾î°¡´Â ±ÛÀÚ´Â c¾ð¾î char typeÀ¸·Î ÁÖ¾îÁö¸ç 'A', 'B', 'C' Áß ÇÏ³ªÀÌ´Ù.
-±ÛÀÚ ÆÇÀº ¹«Á¶°Ç Á¤»ç°¢ÇüÀ¸·Î ÁÖ¾îÁø´Ù.
-ABAµµ È¸¹®ÀÌ¸ç, ABBAµµ È¸¹®ÀÌ´Ù. 
-A¶ÇÇÑ ±æÀÌ 1Â¥¸® È¸¹®ÀÌ´Ù.
-°¡·Î, ¼¼·Î °¢°¢¿¡ ´ëÇØ¼­ Á÷¼±À¸·Î¸¸ ÆÇ´ÜÇÑ´Ù.
-Áï, ¾Æ·¡ ¿¹¿¡¼­ ³ë¶õ»ö °æ·Î¸¦ µû¶ó°¡¸é ±æÀÌ 7Â¥¸® È¸¹®ÀÌ µÇÁö¸¸ Á÷¼±ÀÌ ¾Æ´Ï±â ¶§¹®¿¡ ÀÎÁ¤µÇÁö ¾Ê´Â´Ù.
+	 ê° ì¹¸ì˜ ë“¤ì–´ê°€ëŠ” ê¸€ìžëŠ” cì–¸ì–´ char typeìœ¼ë¡œ ì£¼ì–´ì§€ë©° 'A', 'B', 'C' ì¤‘ í•˜ë‚˜ì´ë‹¤.
+	ê¸€ìž íŒì€ ë¬´ì¡°ê±´ ì •ì‚¬ê°í˜•ìœ¼ë¡œ ì£¼ì–´ì§„ë‹¤.
+	ABAë„ íšŒë¬¸ì´ë©°, ABBAë„ íšŒë¬¸ì´ë‹¤. 
+	Aë˜í•œ ê¸¸ì´ 1ì§œë¦¬ íšŒë¬¸ì´ë‹¤.
+	ê°€ë¡œ, ì„¸ë¡œ ê°ê°ì— ëŒ€í•´ì„œ ì§ì„ ìœ¼ë¡œë§Œ íŒë‹¨í•œë‹¤.
+	ì¦‰, ì•„ëž˜ ì˜ˆì—ì„œ ë…¸ëž€ìƒ‰ ê²½ë¡œë¥¼ ë”°ë¼ê°€ë©´ ê¸¸ì´ 7ì§œë¦¬ íšŒë¬¸ì´ ë˜ì§€ë§Œ ì§ì„ ì´ ì•„ë‹ˆê¸° ë•Œë¬¸ì— ì¸ì •ë˜ì§€ ì•ŠëŠ”ë‹¤.
  */
 
 public class SW_1215{
@@ -54,10 +54,9 @@ public class SW_1215{
 					else if(ok_count1 == check/2 || ok_count2 == check/2) {
 						total_count++;
 					}
-			}
-		}// first for end 
-
+				}
+			}// first for end 
 			System.out.println("#"+(count+1)+" "+total_count);
-	}// count 10 end
-  }
+		}// count 10 end
+  	}
 }
