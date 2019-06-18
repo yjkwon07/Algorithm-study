@@ -121,6 +121,7 @@
     <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\안전 영역[2468](1).cpp" />
     <ClCompile Include="..\..\..\..\..\..\source\repos\SW\SW\안전 영역[2468](2).cpp" />
     <ClCompile Include="..\..\today_sol\괄호 추가하기\괄호 추가하기[16637].cpp" />
+    <ClCompile Include="거울설치[2151].cpp" />
     <ClCompile Include="괄호 추가하기2[16638].cpp" />
     <ClCompile Include="괄호 추가하기3.cpp" />
     <ClCompile Include="달이 차오른다, 가자[1194].cpp" />

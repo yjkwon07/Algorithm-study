@@ -129,5 +129,8 @@
     <ClCompile Include="분해합[2231].cpp">
       <Filter>소스 파일\Brute-Force</Filter>
     </ClCompile>
+    <ClCompile Include="거울설치[2151].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
