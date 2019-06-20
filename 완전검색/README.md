@@ -1,6 +1,8 @@
 # 브루트 포스
 [브루트 포스](https://docs.google.com/document/d/1hirNygR15w7nn7hvsfF3KMlaYNIwYE6p17n7er7AIRA/edit?usp=sharing)
 
+[브루트 포스2](https://docs.google.com/document/d/1OTF6IxuCKhXXDyJMtCMKP3Qqh2Ik0Ke0fhZnIgEbOA4/edit?usp=sharing)
+
 # 순열과 조합 N과 M 문제
 [N과 M](https://docs.google.com/document/d/1mzAah-D2-5NPPImeQujdlgZmVYRtZZT2v8bsL8OuQVo/edit?usp=sharing)
 
