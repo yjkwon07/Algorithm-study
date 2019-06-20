@@ -132,5 +132,158 @@
     <ClCompile Include="거울설치[2151].cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
+    <ClCompile Include="벽 부수고 이동하기4[16946]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="벽 부수고 이동하기4[16946](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="로봇 시뮬레이션[2174].cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="부등호[2529]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="부등호[2529](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="부등호[2529(3).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="일곱 난쟁이[2309].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="날짜 계산[1476]%282%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="날짜 계산[1476](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="테트로미노[14500](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3 더하기[9095](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3 더하기[9095](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 순열[10972]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 순열[10972](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="로또[6603](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="로또[6603](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="모든 순열[10974].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="부분수열의 합[1182]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="부분수열의 합[1182]%282%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="암호 만들기[1759]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="암호 만들기[1759](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기[14888]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기[14888](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기[14888](3).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="외판원 순회2[10971]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="외판원 순회2[10971]%282%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="이전 순열[10973](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="집합[11723].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="차이를 최대로[10819].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="테트로미노[14500](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="테트로미노[14500](3).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="퇴사[14501](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="퇴사[14501](2).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="이전 순열[10973]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%281%29[15649].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%282%29[15650]%282%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(2)[15650](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(3)[15651].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(4)[15652](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%284%29[15652]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%285%29[15654].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%286%29[15655]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%286%29[15655]%282%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(7)[15656].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(8)[15657](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%288%29[15657]%282%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%289%29[15663]%281%29.cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(9)[15663](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(10)[15664].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%2811%29[15665].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(12)[15666].cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
