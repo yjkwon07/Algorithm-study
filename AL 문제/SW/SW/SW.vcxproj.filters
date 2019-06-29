@@ -285,5 +285,119 @@
     <ClCompile Include="N과 M(12)[15666].cpp">
       <Filter>소스 파일\Brute-Force</Filter>
     </ClCompile>
+    <ClCompile Include="1로 만들기[1463].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2N타일링[11726].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2N타일링2[11727].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3 더하기 3[15988].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="카드 구매하기[11052].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="카드 구매하기 2[16194].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3 더하기[9095].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3 더하기 5[15990].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="쉬운 계단 수[10844].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="오르막 수[11057].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="탈출[3055].cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="탈출[3055](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="두 동전[16197](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="두 동전[16197]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="합분해[2225](2).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 감소하는 부분 수열[11722]%281%29.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 감소하는 부분 수열[11722](2).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 바이토닉 부분 수열[11054].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 증가하는 부분 수열[11053].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 증가하는 부분 수열4[14002].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 증가하는 부분 수열[11055].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="스티커[9465].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="연속합[1912].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="연속합2[13398].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="이친수[2193].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="제곱수의 합[1699].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="포도주 시식[2156](2).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="포도주 시식[2156].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="합분해[2225]%281%29.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Maaaaaaaaaze[16985]%281%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="Maaaaaaaaaze[16985](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="캐슬 디펜스[17135]%281%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="캐슬 디펜스[17135](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="캐슬 디펜스[17135](3).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoPuyo[11559](1).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoPuyo[11559](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="공 굴리기[scpc-2019예선%282%29].cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="오르락 내리락[scpcp-2019예선%281%29].cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

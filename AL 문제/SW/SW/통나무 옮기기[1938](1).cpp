@@ -42,8 +42,8 @@ bool out(int x, int y) {
 
 // wall check
 bool check(int x, int y) {
-	if (out(x, y) || arr[x][y] == '1') return false;
-	return true;
+	if (!out(x, y) && arr[x][y] != '1') return true;
+	else return false;
 }
 
 // wall check just one && out
@@ -97,23 +97,23 @@ void bfs() {
 			one(x - 1, y, z, -1, 0);
 			// Down 
 			one(x + 1, y, z, 1, 0);
-			// Left
-			three(x, y, z, x, y + 1, 1, 0);
 			// Right
-			three(x, y, z, x, y - 1, 1, 0);
+			three(x, y, z, x, y + 1, mx, my);
+			// Left
+			three(x, y, z, x, y - 1, mx, my);
 			// Turn 
 			rotate(x, y, z);
 		}
 		// width
 		else {
-			// Up
-			one(x, y - 1, z, 0, -1);
-			// Down
-			one(x, y + 1, z, 0, 1);
 			// Left
-			three(x, y, z, x + 1, y, 0, 1);
+			one(x, y - 1, z, 0, -1);
 			// Right
-			three(x, y, z, x - 1, y, 0, 1);
+			one(x, y + 1, z, 0, 1);
+			// Down
+			three(x, y, z, x + 1, y, mx, my);
+			// Up
+			three(x, y, z, x - 1, y, mx, my);
 			// Turn
 			rotate(x, y, z);
 		}
