@@ -399,5 +399,17 @@
     <ClCompile Include="오르락 내리락[scpcp-2019예선%281%29].cpp">
       <Filter>소스 파일\DP</Filter>
     </ClCompile>
+    <ClCompile Include="연구소 3[17142]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="연구소 3[17142]%282%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="연구소 2[17141]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="연구소 2[17141](2).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

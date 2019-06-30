@@ -196,6 +196,10 @@
     <ClCompile Include="스티커[9465].cpp" />
     <ClCompile Include="암호 만들기[1759](2).cpp" />
     <ClCompile Include="암호 만들기[1759]%281%29.cpp" />
+    <ClCompile Include="연구소 2[17141]%281%29.cpp" />
+    <ClCompile Include="연구소 2[17141](2).cpp" />
+    <ClCompile Include="연구소 3[17142]%281%29.cpp" />
+    <ClCompile Include="연구소 3[17142]%282%29.cpp" />
     <ClCompile Include="연산자 끼워넣기[14888](2).cpp" />
     <ClCompile Include="연산자 끼워넣기[14888](3).cpp" />
     <ClCompile Include="연산자 끼워넣기[14888]%281%29.cpp" />
