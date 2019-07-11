@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Brute-Force">
       <UniqueIdentifier>{29fa4c1a-662a-48b4-91ff-e14039050c81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\scpc">
+      <UniqueIdentifier>{9514606a-1ce1-4d95-a9bb-239711d4c640}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="봄버맨[16918]%282%29.cpp">
@@ -410,6 +413,48 @@
     </ClCompile>
     <ClCompile Include="연구소 2[17141](2).cpp">
       <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 수열.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="문제1.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="문제2.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="이차원 배열과 연산[17140]%281%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="이차원 배열과 연산[17140]%282%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="아기 상어[16236](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="아기 상어[16236]%281%29.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="나무 재테크[16235]%281%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="나무 재테크[16235](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="나무 재테크[16235](3).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="문제3.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="인구 이동[16234](1).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="인구이동[16234](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="인구이동[16234](3).cpp">
+      <Filter>소스 파일\시뮬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

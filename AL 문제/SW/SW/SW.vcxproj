@@ -160,6 +160,9 @@
     <ClCompile Include="공 굴리기[scpc-2019예선%282%29].cpp" />
     <ClCompile Include="괄호 추가하기2[16638].cpp" />
     <ClCompile Include="괄호 추가하기3.cpp" />
+    <ClCompile Include="나무 재테크[16235]%281%29.cpp" />
+    <ClCompile Include="나무 재테크[16235](2).cpp" />
+    <ClCompile Include="나무 재테크[16235](3).cpp" />
     <ClCompile Include="날짜 계산[1476]%282%29.cpp" />
     <ClCompile Include="날짜 계산[1476](1).cpp" />
     <ClCompile Include="다음 순열[10972]%281%29.cpp" />
@@ -177,6 +180,9 @@
     <ClCompile Include="로봇[1726].cpp" />
     <ClCompile Include="말이 되고픈 원숭이[1600].cpp" />
     <ClCompile Include="모든 순열[10974].cpp" />
+    <ClCompile Include="문제1.cpp" />
+    <ClCompile Include="문제2.cpp" />
+    <ClCompile Include="문제3.cpp" />
     <ClCompile Include="벽 부수고 이동하기4[16946]%281%29.cpp" />
     <ClCompile Include="벽 부수고 이동하기4[16946](2).cpp" />
     <ClCompile Include="보이저 1호.cpp" />
@@ -192,8 +198,11 @@
     <ClCompile Include="색종이 붙이기[17136]%281%29.cpp" />
     <ClCompile Include="미세먼지 안녕[17144].cpp" />
     <ClCompile Include="낚시왕[17143].cpp" />
+    <ClCompile Include="소수 수열.cpp" />
     <ClCompile Include="쉬운 계단 수[10844].cpp" />
     <ClCompile Include="스티커[9465].cpp" />
+    <ClCompile Include="아기 상어[16236]%281%29.cpp" />
+    <ClCompile Include="아기 상어[16236](2).cpp" />
     <ClCompile Include="암호 만들기[1759](2).cpp" />
     <ClCompile Include="암호 만들기[1759]%281%29.cpp" />
     <ClCompile Include="연구소 2[17141]%281%29.cpp" />
@@ -213,7 +222,12 @@
     <ClCompile Include="외판원 순회2[10971]%282%29.cpp" />
     <ClCompile Include="이전 순열[10973]%281%29.cpp" />
     <ClCompile Include="이전 순열[10973](2).cpp" />
+    <ClCompile Include="이차원 배열과 연산[17140]%281%29.cpp" />
+    <ClCompile Include="이차원 배열과 연산[17140]%282%29.cpp" />
     <ClCompile Include="이친수[2193].cpp" />
+    <ClCompile Include="인구 이동[16234](1).cpp" />
+    <ClCompile Include="인구이동[16234](2).cpp" />
+    <ClCompile Include="인구이동[16234](3).cpp" />
     <ClCompile Include="일곱 난쟁이[2309].cpp" />
     <ClCompile Include="장군[16509].cpp" />
     <ClCompile Include="제곱수의 합[1699].cpp" />
