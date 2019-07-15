@@ -456,5 +456,26 @@
     <ClCompile Include="인구이동[16234](3).cpp">
       <Filter>소스 파일\시뮬</Filter>
     </ClCompile>
+    <ClCompile Include="등산로 조성[swea1949](2).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="등산로 조성[swea1949]%281%29.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="치킨배달[15686](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="치킨배달[15686](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="치킨배달[15686](3).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="치킨배달[15686](4).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="보물지도[PG].cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

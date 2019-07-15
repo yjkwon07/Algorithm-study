@@ -170,6 +170,8 @@
     <ClCompile Include="달이 차오른다, 가자[1194].cpp" />
     <ClCompile Include="두 동전[16197](2).cpp" />
     <ClCompile Include="두 동전[16197]%281%29.cpp" />
+    <ClCompile Include="등산로 조성[swea1949](2).cpp" />
+    <ClCompile Include="등산로 조성[swea1949]%281%29.cpp" />
     <ClCompile Include="레이저 통신[6087](1).cpp" />
     <ClCompile Include="레이저 통신[6087](2).cpp" />
     <ClCompile Include="레이저 통신[6087](3).cpp" />
@@ -185,6 +187,7 @@
     <ClCompile Include="문제3.cpp" />
     <ClCompile Include="벽 부수고 이동하기4[16946]%281%29.cpp" />
     <ClCompile Include="벽 부수고 이동하기4[16946](2).cpp" />
+    <ClCompile Include="보물지도[PG].cpp" />
     <ClCompile Include="보이저 1호.cpp" />
     <ClCompile Include="보이저 1호[3987](2).cpp" />
     <ClCompile Include="봄버맨[16918]%282%29.cpp" />
@@ -234,6 +237,10 @@
     <ClCompile Include="집합[11723].cpp" />
     <ClCompile Include="차이를 최대로[10819].cpp" />
     <ClCompile Include="치즈[2638].cpp" />
+    <ClCompile Include="치킨배달[15686](1).cpp" />
+    <ClCompile Include="치킨배달[15686](2).cpp" />
+    <ClCompile Include="치킨배달[15686](3).cpp" />
+    <ClCompile Include="치킨배달[15686](4).cpp" />
     <ClCompile Include="카드 구매하기 2[16194].cpp" />
     <ClCompile Include="카드 구매하기[11052].cpp" />
     <ClCompile Include="캐슬 디펜스[17135]%281%29.cpp" />
