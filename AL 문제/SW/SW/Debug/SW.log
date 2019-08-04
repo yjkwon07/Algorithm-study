@@ -32,6 +32,19 @@ c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\가장 긴 감
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\가장 긴 감소하는 부분 수열[11722](1).cpp(20): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
   가장 긴 감소하는 부분 수열[11722](2).cpp
+  감시[15683](1).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\감시[15683](1).cpp(116): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  감시[15683](2).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\감시[15683](2).cpp(122): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\감시[15683](2).cpp(125): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  감시[15683](3).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\감시[15683](3).cpp(28): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\감시[15683](3).cpp(74): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\감시[15683](3).cpp(79): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
   거울설치[2151].cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\거울설치[2151].cpp(103): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
@@ -54,22 +67,25 @@ c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\나무 재테�
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\나무 재테크[16235](2).cpp(64): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
   나무 재테크[16235](3).cpp
-  날짜 계산[1476](2).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\나무 재테크[16235](3).cpp(33): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   레이저 통신[6087](3).cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\레이저 통신[6087](3).cpp(46): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\레이저 통신[6087](3).cpp(49): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
   로또[6603](1).cpp
   로봇 시뮬레이션[2174].cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\로봇 시뮬레이션[2174].cpp(73): error C2143: 구문 오류: ';'이(가) 'else' 앞에 없습니다.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\로봇 시뮬레이션[2174].cpp(73): error C2181: if와 짝을 이루지 않는 잘못된 else문입니다.
-  코드를 생성하고 있습니다...
-  컴파일하고 있습니다...
   모든 순열[10974].cpp
-  문제2.cpp
-c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\문제2.cpp(31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  문제3.cpp
+  무선충전[swea5644](1).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\무선충전[swea5644](1).cpp(56): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\무선충전[swea5644](1).cpp(69): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\무선충전[swea5644](1).cpp(76): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\무선충전[swea5644](1).cpp(82): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\무선충전[swea5644](1).cpp(83): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   벽 부수고 이동하기4[16946](1).cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\벽 부수고 이동하기4[16946](1).cpp(65): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\벽 부수고 이동하기4[16946](1).cpp(72): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -81,15 +97,26 @@ c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\벽 부수고 
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\벽 부수고 이동하기4[16946](2).cpp(85): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  보물지도[PG].cpp
   보이저 1호.cpp
 c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. '보이저 1호.cpp': No such file or directory
   보이저 1호[3987](2).cpp
 c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. '보이저 1호[3987](2).cpp': No such file or directory
   부등호[2529](2).cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\부등호[2529](2).cpp(68): error C2059: 구문 오류: '+'
+  사다리 조작[15684](1).cpp
+  사다리 조작[15684](3).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\사다리 조작[15684](3).cpp(66): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\사다리 조작[15684](3).cpp(69): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  사다리 조작[1584](2).cpp
   소수 수열.cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\소수 수열.cpp(26): error C3861: 'solve': 식별자를 찾을 수 없습니다.
-  아기 상어[16236](1).cpp
+  수영장[swea1952](1).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\수영장[swea1952](1).cpp(65): error C2660: 'dfs': 함수는 3개의 매개 변수를 사용하지 않습니다.
+  c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\수영장[swea1952](1).cpp(32): note: 'dfs' 선언을 참조하십시오.
+  수영장[swea1952](2).cpp
   아기 상어[16236](2).cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\아기 상어[16236](2).cpp(41): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
@@ -114,6 +141,8 @@ c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\연산자 끼�
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\연산자 끼워넣기[14888](1).cpp(63): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
   열쇠[9328](1).cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\열쇠[9328](1).cpp(50): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
@@ -129,8 +158,16 @@ c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\이차원 배�
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\이차원 배열과 연산[17140](2).cpp(88): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-  인구 이동[16234](1).cpp
-c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\인구 이동[16234](1).cpp(9): error C2632: 'int' 다음에 'int'이(가) 올 수 없습니다.
+  인구이동[16234](2).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\인구이동[16234](2).cpp(86): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\인구이동[16234](2).cpp(89): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  인구이동[16234](3).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\인구이동[16234](3).cpp(60): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\인구이동[16234](3).cpp(63): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
   장군[16509].cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\장군[16509].cpp(78): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
@@ -149,9 +186,21 @@ c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\집합[11723].
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\집합[11723].cpp(84): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-  코드를 생성하고 있습니다...
-c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\문제2.cpp(68): warning C4715: 'solution': 모든 제어 경로에서 값을 반환하지는 않습니다.
-  컴파일하고 있습니다...
+  치킨배달[15686](2).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](2).cpp(43): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](2).cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](2).cpp(64): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](2).cpp(74): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](2).cpp(78): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  치킨배달[15686](4).cpp
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](4).cpp(20): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](4).cpp(29): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](4).cpp(45): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\치킨배달[15686](4).cpp(49): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
   캐슬 디펜스[17135](3).cpp
 c:\users\cheerup\documents\github\algorithm-study\al 문제\sw\sw\캐슬 디펜스[17135](3).cpp(71): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.

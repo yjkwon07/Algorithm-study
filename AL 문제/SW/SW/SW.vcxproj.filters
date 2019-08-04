@@ -447,12 +447,6 @@
     <ClCompile Include="문제3.cpp">
       <Filter>소스 파일\scpc</Filter>
     </ClCompile>
-    <ClCompile Include="인구 이동[16234](1).cpp">
-      <Filter>소스 파일\시뮬</Filter>
-    </ClCompile>
-    <ClCompile Include="인구이동[16234](2).cpp">
-      <Filter>소스 파일\시뮬</Filter>
-    </ClCompile>
     <ClCompile Include="인구이동[16234](3).cpp">
       <Filter>소스 파일\시뮬</Filter>
     </ClCompile>
@@ -475,6 +469,54 @@
       <Filter>소스 파일\Brute-Force</Filter>
     </ClCompile>
     <ClCompile Include="보물지도[PG].cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="디저트 카페[swea2105](1).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="드래곤 커브[15685](1).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="드래곤 커브[15685](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="수영장[swea1952](1).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="인구 이동[16234](1).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="인구이동[16234](2).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="드래곤 커브[15685](3).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="수영장[swea1952](2).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="사다리 조작[15684](1).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="사다리 조작[1584](2).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="사다리 조작[15684](3).cpp">
+      <Filter>소스 파일\Brute-Force</Filter>
+    </ClCompile>
+    <ClCompile Include="감시[15683]%281%29.cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="감시[15683](2).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="감시[15683](3).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="무선충전[swea5644](1).cpp">
+      <Filter>소스 파일\시뮬</Filter>
+    </ClCompile>
+    <ClCompile Include="무선충전[swea5644](2).cpp">
       <Filter>소스 파일\시뮬</Filter>
     </ClCompile>
   </ItemGroup>

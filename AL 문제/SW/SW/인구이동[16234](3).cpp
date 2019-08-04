@@ -27,11 +27,8 @@ void create_area(int sy, int sx, int status[][50], int index, int & count, int &
 	int visited[50][50] = { 0, };
 
 	queue<POSI> q;
-	POSI head;
-	head.y = sy;
-	head.x = sx;
 	visited[sy][sx] = 1;
-	q.push(head);
+	q.push({sy , sx});
 
 	while (!q.empty())
 	{

@@ -5,8 +5,7 @@
 #include<queue>
 using namespace std;
 /*
-인구 이동
-
+	인구 이동
 */
 #define MAX 50
 #define LR 100
@@ -58,7 +57,6 @@ bool checkPeople(int x, int y, int c) {
 	country.push_back({ x, y });
 	q.push({ x , y });
 	checked[x][y] = c;
-	//	cout << x << ' ' << y <<'\n';
 	while (!q.empty()) {
 		int cx = q.front().x;
 		int cy = q.front().y;
@@ -81,11 +79,11 @@ bool checkPeople(int x, int y, int c) {
 			}
 		}
 	}
+
 	if (cnt == 1) {
 		return false;
 	}
-
-	else {
+	else { 
 		int result = sum / cnt;
 		for (int i = 0; i < country.size(); i++) {
 			int cx = country[i].x;
@@ -111,7 +109,6 @@ void solve() {
 				}
 			}
 		}
-		//		print();
 		if (flag == false) break;
 		else count++;
 	}
